@@ -108,4 +108,14 @@ h6 {
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color: #000;
+  color: #fff;
+
+  &::after {
+    content: "";
+    position: fixed;
+    background: linear-gradient(to top, red, #000);
+    filter: blur(200px);
+    z-index: -1;
+  }
 }

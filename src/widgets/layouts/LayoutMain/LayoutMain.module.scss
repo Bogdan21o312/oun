@@ -1,0 +1,15 @@
+.Wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  // Press the footer
+  > main {
+    flex: 1 1 auto;
+  }
+
+  // Fix for sliders
+  > * {
+    min-width: 0;
+  }
+}
